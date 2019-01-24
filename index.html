@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>Cardinal hours time</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/main.js"type="text/javascript"></script>
 </head>
 <body>
     <div class="page">
         <div class="page__demo">
             <label class="field a-field a-field_a1 page__field">
-                <input class="field__input a-field__input" placeholder=" " required>
+                <input class="field__input a-field__input"  id="name" placeholder=" " required>
                 <span class="a-field__label-wrap">
-            <span class="a-field__label">Name</span>
+            <span class="a-field__label" >Name</span>
           </span>
             </label>
             <label class="field a-field a-field_a2 page__field">
@@ -23,9 +24,12 @@
         </div>
     </div>
     <div class="ph-float">
-        <button class='ph-button ph-btn-red'>Flat Red</button>
-        </div>
+        <button class='ph-button ph-btn-red' id ="login-button">Log in</button>
+    </div>
     </div>
     <div class="ph-clear"></div>
+<div id="welcome-box">
+    <div id="welcome-text"></div>
+</div>
 </body>
 </html>
